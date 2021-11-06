@@ -1,0 +1,16 @@
+Declare constants like the width of the board and the clours. 
+The colors are put in an array. 
+We create the board using an array, first we have to figure out how many
+squares make up our board, the width will be 8 and height will be 8,
+which will be 64. We use reandom colors to make up 64 squares, it is done
+using functional expression.
+
+Problem 1: Write a function to generate 64 random colors from an array
+of 6 random colors and push the random colors into an array. Save the
+array to state using "useState hook"
+
+Problem 2: How to stop re-rendering and prevent an infinite loop.
+Ans: By using "useEffect"
+
+Problem 3: Write a function to check for column of 3.
+Ans: Loop over squares. 
